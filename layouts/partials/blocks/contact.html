@@ -1,0 +1,13 @@
+<section id="contact" class="anchor">
+	<div class="contact">
+		<div class="container">
+			<div class="grid">
+				<div class="column">
+					{{- with .Params.a_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+					{{- with .Params.a_1 -}}<p class="meet-blue">{{ markdownify . }}</p>{{- end -}}
+					{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

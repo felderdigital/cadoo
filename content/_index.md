@@ -1,0 +1,43 @@
++++
+title = "Home"
+type = "page"
+[[blocks]]
+a_1 = "\"To move forward you have to give back:\" - Oprah"
+a_2 = "Cadoo Medical PC will host their first Annual Health fair. At this health fair member's of the community, (Montclair and surrounding cities) will be able to receive a basic health screen for free. The screening includes weight and Height/ BMI,  Blood Pressure check, glucose and cholesterol check and an HIV screening test for those interested. All whom undergo a screening will then receive helpful medical advice from Dr. Lisa Cadoo herself."
+a_3 = "Along with screenings we will have a photobooth, snacks, drinks, goody bags and 3 raffled items. You can also sign up to be a patient and make your appointment right at the fair."
+a_4 = "Come by, have fun and meet your new Doctor on Saturday September 14th 12-3pm."
+a_subtitle = "What better way to get to know the community than by getting involved in the community?"
+a_title = "Community Health Fair"
+b_1 = "Date: Saturday, September 14th, 12-3pm"
+b_2 = "Location: Cadoo Medical PC"
+b_3 = "66 Park Street Suite 100"
+b_4 = "Montclair, NJ 07042"
+template = "about"
+[[blocks]]
+a_1 = "Dr. Cadoo is a board certified internal medicine physician practicing for the past 7 years. She earned her medical degree from St. George's University Grenada graduating Cum Laude in 2009. She completed her internship and residency at St. Luke's Roosevelt hospital in New York."
+a_2 = "Dr. Cadoo is very passionate about the practice of medicine. She is compassionate, and spends time getting to know her patients in order to develop thorough treatment plans, for this reason she chose internal medicine, primary care as her specialty."
+a_3 = "Dr. Cadoo has worked in medically under served communities, providing care to patients in need. She has a desire to continue doing community outreach. She has also worked in large multi specialty group attending to a wide range of medical problems."
+a_4 = "After experiencing corporate medicine, she decided to start her own medical practice in order to truly focus on caring for patients in a manner that upholds her oath."
+a_title = "Meet the Doctor"
+template = "meet"
+[[blocks]]
+a_title = "Services"
+a_1 = "Check ups"
+a_2 = "Walk ins for sick visits"
+a_3 = "Telemedicine visits"
+a_4 = "Vaccines"
+a_5 = "Routine testing- EKG"
+a_6 = "Procedures"
+a_7 = "Medical marijuana program"
+a_8 = "LGBT care"
+a_9 = "Weight loss program"
+template = "services"
+[[blocks]]
+a_title = "Testimonials"
+template = "testimonials"
+[[blocks]]
+a_1 = "Want to call instead? Give us a call, we'll be happy to assist - <a href=\"tel:212-448-2941\">(973) 577-3010</a>"
+a_2 = "Please do not submit sensitive medical information, we’ll get that when we talk to you."
+a_title = "Contact Us"
+template = "contact"
++++

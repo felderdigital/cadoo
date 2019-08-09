@@ -1,0 +1,14 @@
+baseurl = ""
+# baseurl = "https://felderdigital.com/projects/cadoo/"
+# canonifyURLs = true
+
+title = "Cadoo Medical"
+copyright = "&copy; 2019 Cadoo Medical"
+
+[params]
+  author = "Felder Digital"
+  description = "Introducing a new practice to Montclair with a new approach to medicine"
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"

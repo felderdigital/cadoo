@@ -1,0 +1,32 @@
+<section id="about" class="anchor">
+	<div class="about">
+		<div class="container-fluid">
+			<div class="grid">
+				<div class="column">
+					{{- with .Params.a_title -}}<h1>{{ markdownify . }}</h1>{{- end -}}
+					{{- with .Params.a_subtitle -}}<h2>{{ markdownify . }}</h2>{{- end -}}
+					{{- with .Params.b_1 -}}<p>{{ markdownify . }}<br/>{{- end -}}
+					{{- with .Params.b_2 -}}{{ markdownify . }}<br/>{{- end -}}
+					{{- with .Params.b_3 -}}{{ markdownify . }}<br/>{{- end -}}
+					{{- with .Params.b_4 -}}{{ markdownify . }}</p>{{- end -}}
+					<a class="button button-primary" href="https://www.google.com/maps/place/66+Park+St+%23100,+Montclair,+NJ+07042/@40.8184294,-74.218608,17z/data=!4m5!3m4!1s0x89c255529627db0f:0x34c607ca83223484!8m2!3d40.8184294!4d-74.2164193" target="_blank">Google Maps</a>
+					<a class="button button-secondary" href="tel:973-577-3010">Call Us</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="more-info">
+	<div class="container">
+		<div class="grid">
+			<div class="column"></div>
+			<div class="column">
+				{{- with .Params.a_1 -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+				{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
+				{{- with .Params.a_3 -}}<p>{{ markdownify . }}</p>{{- end -}}
+				{{- with .Params.a_4 -}}<p>{{ markdownify . }}</p>{{- end -}}
+			</div>
+			<div class="column"></div>
+		</div>
+	</div>
+</section>
