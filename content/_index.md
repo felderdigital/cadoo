@@ -2,7 +2,7 @@
 title = "Home"
 type = "page"
 [[blocks]]
-a_1 = "\"To move forward you have to give back:\" - Oprah"
+a_1 = "\"To move forward you have to give back\" - Oprah"
 a_2 = "Cadoo Medical PC will host their first Annual Health fair. At this health fair member's of the community, (Montclair and surrounding cities) will be able to receive a basic health screen for free. The screening includes weight and Height/ BMI,  Blood Pressure check, glucose and cholesterol check and an HIV screening test for those interested. All whom undergo a screening will then receive helpful medical advice from Dr. Lisa Cadoo herself."
 a_3 = "Along with screenings we will have a photobooth, snacks, drinks, goody bags and 3 raffled items. You can also sign up to be a patient and make your appointment right at the fair."
 a_4 = "Come by, have fun and meet your new Doctor on Saturday September 14th 12-3pm."
@@ -36,8 +36,6 @@ template = "services"
 a_title = "Testimonials"
 template = "testimonials"
 [[blocks]]
-a_1 = "Want to call instead? Give us a call, we'll be happy to assist - <a href=\"tel:212-448-2941\">(973) 577-3010</a>"
-a_2 = "Please do not submit sensitive medical information, we’ll get that when we talk to you."
 a_title = "Contact Us"
 template = "contact"
 +++
