@@ -19,6 +19,7 @@ a_2 = "Dr. Cadoo is very passionate about the practice of medicine. She is compa
 a_3 = "Dr. Cadoo has worked in medically under served communities, providing care to patients in need. She has a desire to continue doing community outreach. She has also worked in large multi specialty group attending to a wide range of medical problems."
 a_4 = "After experiencing corporate medicine, she decided to start her own medical practice in order to truly focus on caring for patients in a manner that upholds her oath."
 a_title = "Meet the Doctor"
+a_subtitle = "Founder & Internist, Dr. Lisa Cadoo"
 template = "meet"
 [[blocks]]
 a_title = "Services"

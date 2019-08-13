@@ -7,6 +7,7 @@
 				</div>
 				<div class="column">
 					{{- with .Params.a_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+					{{- with .Params.a_subtitle -}}<h4>{{ markdownify . }}</h4>{{- end -}}
 					{{- with .Params.a_1 -}}<p>{{ markdownify . }}</p>{{- end -}}
 					{{- with .Params.a_2 -}}<p>{{ markdownify . }}</p>{{- end -}}
 					{{- with .Params.a_3 -}}<p>{{ markdownify . }}</p>{{- end -}}
