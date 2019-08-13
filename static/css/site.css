@@ -274,6 +274,8 @@ a:hover {
 	font-weight: 600;
 	letter-spacing: .1rem;
 	line-height: 3.8rem;
+	margin-top: 1em;
+	padding: 0.5rem 2.5rem;
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -281,10 +283,6 @@ a:hover {
 }
 a.button {
 	text-decoration: none;
-}
-.button {
-	margin-top: 1em;
-	padding: 0.5rem 2.5rem;
 }
 .button-primary {
 	background: #f7933d;
@@ -375,8 +373,8 @@ a.button {
 .services h3 {
 	text-align: center;
 }
-.services .column {
-	/* border: 1px solid #ccc; */
+.services ol li {
+	color: #666;
 }
 
 /*----------------------------------------------------
@@ -447,6 +445,7 @@ a.button {
 	.meet h3 {margin-top: -1em;}
 	.learn-more {padding-top: 3em;}
 	.testimonials {padding: 1em 0 5em;}
+	.attribution {padding-top: 1em;}
 	footer {margin-bottom: -1em;}
 }
 @media (min-width: 60.0rem) {
@@ -455,15 +454,21 @@ a.button {
 	.meet {padding: 1em 0 0;}
 	.meet .column:nth-child(1) {margin-left: -1em;}
 	.meet .column:nth-child(2) {padding-left: 4em;}
-	.services {padding: 0 0 5em;}
 	.testimonials {padding: 1em 0 7em;}
 	.contact {padding: 0 0 5em;}
-	.learn-more h3,
-	.image-gallery h3,
+	.contact .column:nth-child(2) {flex: 0 0 70%;}
 	.about .column:nth-child(1) {
 		margin-top: -170px;
 		padding-left: 4em;
 		padding-bottom: 3em;
+	}
+	.services {
+		margin-top: -23px;
+		padding: 0 0 5em;
+	}
+	.attribution {
+		padding-top: 0.5em;
+		padding-bottom: 0.25em;
 	}
 }
 
@@ -471,7 +476,7 @@ a.button {
 # Footer
 ----------------------------------------------------*/
 footer {
-	background:	#4e1953;
+	background:	#290d2c;
 	font-family: 'Poppins', sans-serif;
 	padding: 0;
 	text-align: center;
@@ -485,27 +490,9 @@ footer a:active,
 footer a:visited {
 	color: #fff;
 }
-footer p {
-	margin: 0;
-}
-.footer-title {
-	font-size: 2.0rem;
-	text-transform: uppercase;
-}
-.footer-links {
-	list-style: none;
-	padding-left: 0;
-	padding-bottom: 0;
-	text-transform: uppercase;
-}
-.footer-links li {
-	display: inline;
-	padding: 0 2em;
-}
 .attribution {
-	font-size: 1.3rem;
-	margin-top: 1em;
-	margin-bottom: 0.75em;
+	font-size: 1.4rem;
+	margin-bottom: 0;
 }
 
 /*----------------------------------------------------
@@ -518,9 +505,8 @@ footer p {
  #_form_3_._form-bottom { bottom:0; }
  #_form_3_._form-left { left:0; }
  #_form_3_._form-right { right:0; }
- #_form_3_ input[type="text"],#_form_3_ input[type="date"],#_form_3_ textarea { padding:6px; height:auto; border:#979797 1px solid; border-radius:4px; color:#000 !important; font-size:13px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+ #_form_3_ input[type="text"],#_form_3_ input[type="date"],#_form_3_ textarea { padding:6px; height:auto; border:#979797 1px solid; border-radius:4px; color:#000 !important; font-size:1.6rem; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
  #_form_3_ textarea { resize:none; }
- #_form_3_ ._submit { -webkit-appearance:none; cursor:pointer; font-family:arial, sans-serif; font-size:14px; text-align:center; background:#63bfdb !important; border:0 !important; -moz-border-radius:4px !important; -webkit-border-radius:4px !important; border-radius:4px !important; color:#fff !important; padding:10px !important; }
  #_form_3_ ._close-icon { cursor:pointer; background-image:url('https://d226aj4ao1t61q.cloudfront.net/esfkyjh1u_forms-close-dark.png'); background-repeat:no-repeat; background-size:14.2px 14.2px; position:absolute; display:block; top:11px; right:9px; overflow:hidden; width:16.2px; height:16.2px; }
  #_form_3_ ._close-icon:before { position:relative; }
  #_form_3_ ._form-body { margin-bottom:30px; }
@@ -532,7 +518,7 @@ footer p {
  #_form_3_._dark ._form-branding { color:#333; }
  #_form_3_._dark ._form-branding ._logo { background-image:url('https://d226aj4ao1t61q.cloudfront.net/jftq2c8s_aclogo_dk.png'); }
  #_form_3_ ._form_element { position:relative; margin-bottom:10px; font-size:0; max-width:100%; }
- #_form_3_ ._form_element * { font-size:14px; }
+ #_form_3_ ._form_element * { font-size:1.6rem; }
  #_form_3_ ._form_element._clear { clear:both; width:100%; float:none; }
  #_form_3_ ._form_element._clear:after { clear:left; }
  #_form_3_ ._form_element input[type="text"],#_form_3_ ._form_element input[type="date"],#_form_3_ ._form_element select,#_form_3_ ._form_element textarea:not(.g-recaptcha-response) { display:block; width:100%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
@@ -575,7 +561,6 @@ footer p {
  #_form_3_ ._form-image { max-width:100%; height:auto !important; }
  #_form_3_ input[type="text"] { padding-left:10px; padding-right:10px; font-size:16px; line-height:1.3em; -webkit-appearance:none; }
  #_form_3_ input[type="radio"],#_form_3_ input[type="checkbox"] { display:inline-block; width:1.3em; height:1.3em; font-size:1em; margin:0 0.3em 0 0; vertical-align:baseline; }
- #_form_3_ button[type="submit"] { padding:20px; font-size:1.5em; }
  #_form_3_ ._inline-style { margin:20px 0 0 !important; }
  }
  #_form_3_ { position:relative; text-align:left; margin:25px auto 0; padding:20px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; *zoom:1; background:#fff !important; border:0px solid #b0b0b0 !important; -moz-border-radius:0px !important; -webkit-border-radius:0px !important; border-radius:0px !important; }
@@ -590,11 +575,9 @@ footer p {
  #_form_3_ ._form-thank-you { position:relative; left:0; right:0; text-align:center; font-size:18px; }
  @media all and (min-width:320px) and (max-width:667px) { #_form_3_._inline-form._inline-style ._inline-style._button-wrapper { margin-top:20px !important; margin-left:0 !important; }
  }
-
-
- #_form_3_ button[type="submit"] {
- 	background: #f7933d;
-	border: 0.1rem solid #f7933d;
+#_form_3_ ._submit {
+	background: #ed1779;
+	border: 0.1rem solid #ed1779;
 	border-radius: 0.4rem;
 	color: #fff;
 	cursor: pointer;
@@ -604,14 +587,16 @@ footer p {
 	font-weight: 600;
 	letter-spacing: .1rem;
 	line-height: 3.8rem;
+	margin-top: 1em;
+	padding: 0.5rem 2.5rem;
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
 	white-space: nowrap;
 }
-#_form_3_ button[type="submit"]:hover,
-#_form_3_ button[type="submit"]:focus {
-	background: #f68525;
+#_form_3_ ._submit:hover,
+#_form_3_ ._submit:focus {
+	background: #da116d;
 	color: #fff;
 	outline: 0;
 }
