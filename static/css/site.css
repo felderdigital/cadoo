@@ -104,12 +104,15 @@ a:hover {
 }
 
 /*----------------------------------------------------
-# Header
+# Logo
 ----------------------------------------------------*/
 .logo {
 	text-align: center;
 	margin-top: 15px;
 	margin-bottom: 10px;
+}
+.logo-mobile {
+	padding-top: 4em;
 }
 
 /*----------------------------------------------------
@@ -132,8 +135,17 @@ a:hover {
 }
 
 /*----------------------------------------------------
-## Nav Mobile
+## Header Mobile
 ----------------------------------------------------*/
+#header-mobile {
+	/*
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	*/
+}
 #nav-mobile {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
@@ -160,7 +172,7 @@ a:hover {
 }
 #nav-mobile li:last-child { border-bottom: none; }
 #nav-mobile a {
-	color: #888;
+	color: #666;
 	display: block;
 	padding: 1.5em 4em 1.5em 3em;
 	text-transform: uppercase;
@@ -180,14 +192,14 @@ a:hover {
 .menu-toggle {
 	position: absolute;
 	padding: 0.8em;
-	top: 1em;
+	top: 4em;
 	right: .5em;
 	cursor: pointer;
 }
 .hamburger, .hamburger::before, .hamburger::after {
 	content: '';
 	display: block;
-	background: #EBEBD3;
+	background: #666;
 	height: 3px;
 	width: 2em;
 	border-radius: 3px;
@@ -213,7 +225,7 @@ a:hover {
 }
 
 /*----------------------------------------------------
-## Nav Desk
+## Header Desk
 ----------------------------------------------------*/
 #header-desk {
 	background: #fff;
@@ -240,8 +252,8 @@ a:hover {
 	font-weight: 600;
 	list-style: none;
 	margin: 0;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 0.9em;
+	padding-bottom: 1.1em;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -303,6 +315,20 @@ a.button {
 	background: #da116d;
 	color: #fff;
 	outline: 0;
+}
+.button-nav {
+	float: right;
+	margin-top: -4.5em;
+	margin-right: 2em;
+}
+.button-mobile {
+	margin-top: -1em;
+}
+.button-mobile .button {
+	width: 50%;
+    margin: 0;
+    float: left;
+    border-radius: 0;
 }
 
 /*----------------------------------------------------
@@ -442,16 +468,21 @@ a.button {
 ----------------------------------------------------*/
 @media (max-width: 60.0rem) {
 	h1 {margin-top: 1em;}
+	.meet {margin-top: -2em;}
 	.meet h3 {margin-top: -1em;}
-	.learn-more {padding-top: 3em;}
-	.testimonials {padding: 1em 0 5em;}
+	.more-info {margin-top: -1em;}
+	.more-info h3 {margin-top: -0.5em;}
 	.attribution {padding-top: 1em;}
 	footer {margin-bottom: -1em;}
+	.testimonials {
+		margin-top: -1em;
+		padding: 1em 0 5em;
+	}
 }
 @media (min-width: 60.0rem) {
 	h1 {margin-top: 0.5em;}
 	.more-info {padding-bottom: 3em;}
-	.meet {padding: 1em 0 0;}
+	.meet {padding: 0;}
 	.meet .column:nth-child(1) {margin-left: -1em;}
 	.meet .column:nth-child(2) {padding-left: 4em;}
 	.testimonials {padding: 1em 0 7em;}

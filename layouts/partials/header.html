@@ -14,6 +14,7 @@
 	<link href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css" type="text/css" rel="stylesheet">
 	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 	<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 	<link href="{{ "/css/site.css" | relURL }}" type="text/css" rel="stylesheet">
 	
 	<link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
@@ -57,7 +58,11 @@
 </head>
 <body>
 <header id="header-mobile">
-	<div class="logo">
+	<div class="button-mobile">
+		<a class="button button-primary" href="tel:973-577-3010">Call Us</a>
+		<a class="button button-secondary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cadooschedule/request'});return false;">Appt Request</a>
+	</div>
+	<div class="logo logo-mobile">
 		<img src="{{ $.Site.BaseURL }}/img/content/logo.png" />
 	</div>
 	<nav id="nav-mobile">
@@ -87,6 +92,10 @@
 					<li><a href="#testimonials">Testimonials</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
+				<div class="button-nav">
+					<a class="button button-primary" href="tel:973-577-3010">Call Us</a>
+					<a class="button button-secondary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cadooschedule/request'});return false;">Appointment Request</a>
+				</div>
 			</div>
 		</div>
 	</div>
