@@ -472,11 +472,18 @@ a.button {
 	.meet h3 {margin-top: -1em;}
 	.more-info {margin-top: -1em;}
 	.more-info h3 {margin-top: -0.5em;}
-	.attribution {padding-top: 1em;}
+	.services h4 {margin-top: -2em;}
 	footer {margin-bottom: -1em;}
+	.facebook {display: none;}
+	.attribution {margin-top: -1em;}
 	.testimonials {
 		margin-top: -1em;
 		padding: 1em 0 5em;
+	}
+	.footer-links {
+		margin: 0 0 -2em;
+		padding: 0;
+		text-align: center;
 	}
 }
 @media (min-width: 60.0rem) {
@@ -488,6 +495,7 @@ a.button {
 	.testimonials {padding: 1em 0 7em;}
 	.contact {padding: 0 0 5em;}
 	.contact .column:nth-child(2) {flex: 0 0 70%;}
+	.footer-links {padding: 1em 0;}
 	.about .column:nth-child(1) {
 		margin-top: -170px;
 		padding-left: 4em;
@@ -510,7 +518,6 @@ footer {
 	background:	#290d2c;
 	font-family: 'Poppins', sans-serif;
 	padding: 0;
-	text-align: center;
 }
 footer,
 footer p,
@@ -521,9 +528,31 @@ footer a:active,
 footer a:visited {
 	color: #fff;
 }
+.footer-links .column:nth-child(1) {
+	flex: 0 0 20%;
+}
+.footer-links .column:nth-child(4) {
+	flex: 0 0 15%;
+}
+.footer-links p {
+	margin: 5px 0;
+}
+.facebook {
+	float: left;
+	margin-top: -3px;
+	margin-right: 10px;
+}
+.facebook-icon {
+	height: 36px;
+	width: 36px;
+}
+.blog {
+	margin-left: 48px;
+}
 .attribution {
 	font-size: 1.4rem;
 	margin-bottom: 0;
+	text-align: center;
 }
 
 /*----------------------------------------------------
