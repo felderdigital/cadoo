@@ -1,5 +1,5 @@
 ---
-label: Appointment
+label: Contact
 hide_body: true
 display_field: heading
 fields:
@@ -7,11 +7,11 @@ fields:
   name: a_title
   label: Title
   description: 
-- type: textarea
+- type: text
   name: a_1
-  label: Paragraph 1
+  label: Form Title
   description: 
 - type: textarea
   name: a_2
-  label: Paragraph 2
+  label: Form Text
   description: 
