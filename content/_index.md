@@ -77,6 +77,8 @@ g_1 = "Dr. Cadoo is a Excellent doctor. I have been seeing her for a long time .
 g_2 = "Shanda Stokes"
 template = "testimonials"
 [[blocks]]
+a_1 = "August Newsletter Grand Opening Raffle"
+a_2 = "Subscribe to newsletter and get Two FREE Raffle entries at our Grand Opening Health-Fair September 14, 2019."
 a_title = "Contact Us"
 template = "contact"
 +++

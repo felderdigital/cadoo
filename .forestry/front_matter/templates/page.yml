@@ -11,11 +11,8 @@ fields:
   template_types:
   - about
   - meet
-  - techniques
-  - candidate
-  - learn-more
-  - image-gallery
+  - services
   - testimonials
-  - appointment
+  - contact
 pages:
 - content/_index.md
