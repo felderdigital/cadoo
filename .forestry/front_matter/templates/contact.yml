@@ -15,3 +15,15 @@ fields:
   name: a_2
   label: Form Text
   description: 
+- type: text
+  name: b_title
+  label: Map Title
+  description: 
+- type: text
+  name: b_1
+  label: Address Line 1
+  description: 
+- type: text
+  name: b_2
+  label: Address Line 2
+  description: 

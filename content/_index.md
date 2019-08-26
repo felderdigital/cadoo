@@ -80,6 +80,8 @@ template = "testimonials"
 a_1 = "August Newsletter Grand Opening Raffle"
 a_2 = "Subscribe to newsletter and get Two FREE Raffle entries at our Grand Opening Health-Fair September 14, 2019."
 a_title = "Contact Us"
+b_title = "Visit Us"
+b_1 = "66 Park Street Suite 100"
+b_2 = "Montclair, NJ 07042"
 template = "contact"
-
 +++
