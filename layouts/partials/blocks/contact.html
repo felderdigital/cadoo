@@ -49,14 +49,22 @@
 					  <div class="_form-thank-you" style="display:none;"></div>
 					</form>
 					</div>
-					{{- with .Params.b_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
-					{{- with .Params.b_1 -}}<p class="address">{{ markdownify . }}{{- end -}}
-					{{- with .Params.b_2 -}}<br/>{{ markdownify . }}</p>{{- end -}}
-					<div class="google-map-embed">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3019.4340245151193!2d-74.218608!3d40.8184294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c255529627db0f%3A0x34c607ca83223484!2s66%20Park%20St%20%23100%2C%20Montclair%2C%20NJ%2007042!5e0!3m2!1sen!2sus!4v1566837169433!5m2!1sen!2sus" width="100%" height="500" frameborder="0" style="border:1px solid #999;" allowfullscreen=""></iframe>
-					</div>
 				</div>
 				<div class="column"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="visit">
+	<div class="container">
+		<div class="grid">
+			<div class="column">
+				{{- with .Params.b_title -}}<h3>{{ markdownify . }}</h3>{{- end -}}
+				{{- with .Params.b_1 -}}<p class="address">{{ markdownify . }}{{- end -}}
+				{{- with .Params.b_2 -}}<br/>{{ markdownify . }}</p>{{- end -}}
+				<div class="google-map-embed">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3019.4340245151193!2d-74.218608!3d40.8184294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c255529627db0f%3A0x34c607ca83223484!2s66%20Park%20St%20%23100%2C%20Montclair%2C%20NJ%2007042!5e0!3m2!1sen!2sus!4v1566837169433!5m2!1sen!2sus" width="100%" height="500" frameborder="0" style="border:1px solid #999;" allowfullscreen=""></iframe>
+				</div>
 			</div>
 		</div>
 	</div>
